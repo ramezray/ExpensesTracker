@@ -1,0 +1,29 @@
+{
+  "name": "expensestracker",
+  "version": "1.0.0",
+  "description": "Expenses Tracker App to help user keep track of daily spending and stick to budget!!",
+  "main": "server.js",
+  "scripts": {
+    "client-install":"npm i --prefix client",
+    "test": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev":"concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramezray/ExpensesTracker.git"
+  },
+  "author": "Ray Wasif",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramezray/ExpensesTracker/issues"
+  },
+  "homepage": "https://github.com/ramezray/ExpensesTracker#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^4.1.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.5.13"
+  }
+}
