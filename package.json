@@ -4,11 +4,11 @@
   "description": "Expenses Tracker App to help user keep track of daily spending and stick to budget!!",
   "main": "server.js",
   "scripts": {
-    "client-install":"npm i --prefix client",
+    "client-install": "npm i --prefix client",
     "test": "node server.js",
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
-    "dev":"concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
     "type": "git",
